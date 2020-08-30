@@ -35,7 +35,7 @@ body {
     color: white;
 }
 .hero-grid h2 {
-    margin-top: 50px;
+    margin-top: 3vw;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
@@ -69,11 +69,11 @@ body {
         background-image: url(../images/bg-desktop.svg);
     }
     .wrapper {
-        padding: 0 50px;
+        padding: 0 3vw;
     }
     .logo {
-        width: 200px;
-        padding-top: 50px;
+        width: 14vw;
+        padding-top: 3.5vw;
     }
     .hero-grid {
         display: grid;
@@ -83,20 +83,23 @@ body {
     .illustration {
         max-width: none;
         width: 94%;
-        margin-top: 80px;
+        margin-top: 5vw;
     }
     .contenido {
-        padding: 60px 40px;
+        padding: 3.75vw 2.5vw   ;
     }
     .contenido h2 {
-        font-size: 45px;
+        font-size: 2.8vw;
         /* font-weight: 700; */
     }
     .contenido p {
-        font-size: 18px;
+        font-size: 1.25vw;
     }
     .contenido button {
-        padding: 15px 60px;
+        padding: 1vw 3.75vw;
+    }
+    .hero-grid button {
+        font-size: 1vw;
     }
     .social-link-grid {
         text-align: end;
